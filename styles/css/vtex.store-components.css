@@ -1,0 +1,23 @@
+.slideChildrenContainer {
+  border-radius: 25px;
+  background: transparent;
+}
+
+/* .searchBarContainer {
+  width: 500px;
+  border: none;
+  border-radius: 0;
+  border-bottom: thin solid seashell;
+  background: transparent;
+} */
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+  background: transparent;
+  color: rgb(79, 251, 79);
+}
+.figure {
+  opacity: 0;
+}
+.carouselGaleryCursor {
+  transform: translate(-35px, 0px);
+}

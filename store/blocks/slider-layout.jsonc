@@ -1,0 +1,38 @@
+{
+"flex-layout.row#slider": {
+    "children": ["slider-layout#home"],
+    "props": {
+      "blockClass": "carouselRow"
+    }
+  },
+  "slider-layout#home": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": [
+      "iframe#home1",
+      "iframe#home2"
+    ]
+  },
+  "iframe#home1": {
+    "props": {
+      "src": "assets/banner1.png",
+      "width": 930,
+      "height": 280
+    }
+  },
+  "iframe#home2": {
+    "props": {
+      "src": "assets/banner2.png",
+      "width": 930,
+      "height": 280
+    }
+  }
+}

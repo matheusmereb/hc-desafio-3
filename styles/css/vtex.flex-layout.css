@@ -1,0 +1,40 @@
+.flexRowContent--headerRow,
+.flexRowContent--headerNav {
+  background-color: #212121;
+  padding-top: 10px;
+}
+
+.flexRowContent--footerRow2 {
+  max-width: 850px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #424242;
+}
+
+.wrapper--footerStickyContainer,
+.flexRowContent--footerRow1 {
+  background-color: #424242;
+  padding-top: 10px;
+}
+
+.flexColChild {
+  max-width: 75%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  color: #fff;
+}
+
+.flexRow--carouselRow {
+  max-width: 800px;
+  margin: 10px auto;
+}
+
+.flexRow--footerStickyContainer,
+.wrapper,
+.wrapper--footerStickyContainer,
+.wrapper--stuck,
+.wrapper--footerStickyContainer--stuck {
+  position: absolute;
+  bottom: 0;
+}
